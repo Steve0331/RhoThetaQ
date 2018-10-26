@@ -1,0 +1,196 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 736px) {
+    .footer a i {
+        padding-right: 15px;
+        padding-left: 15px;
+/*                margin-bottom: 20px;*/
+        font-size: 20px !important;
+        color: gold !important;
+    }
+    .que-background {
+        background-image: url(/images/background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+    .carousel-item {
+        height: 60vh;
+        min-height: 300px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    .footer a,
+    i {
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 20px !important;
+        color: gold !important;
+
+    }
+
+    #centerimg {
+        margin-top: 15%;
+    }
+
+    .gallery img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .que-background {
+        background-image: url(/images/background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /*
+        width: 955px !important;
+        margin: auto;
+*/
+    }
+    .carousel-item {
+        height: 80vh;
+        min-height: 300px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+
+}
+
+
+
+.portfolio-item {
+    margin-bottom: 30px !important;
+}
+
+
+
+nav li a {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px !important;
+}
+
+.marchmasterslist {
+    color: white;
+    font-family: 'Roboto',
+    sans-serif;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 4%;
+}
+
+.marchmasterslist li {
+    padding: .2%;
+    color: white;
+}
+
+.history {
+    width: 100%;
+    text-align: left;
+    color: white;
+}
+
+.officers div {
+    padding: 30px;
+}
+
+.officers h5 {
+    color: white;
+}
+
+.gallery-div {
+    margin-bottom: 2%;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+/*    height: 20px;*/
+    background-color: #f5f5f5;
+/*    margin-top: 2%;*/
+}
+
+.footer-block {
+/*      margin: 20px 0;*/
+}
+
+.footer a {
+    color: gold !important;
+    text-transform: none !important;
+    text-decoration: none !important;
+}
+
+.footer i {
+    text-align: left !important;
+}
+
+
+small {
+    font-weight: 800;
+}
+
+#name {
+    font-weight: 800;
+}
+
+
+
+.que-background p,
+h2 {
+    color: white;
+    font-weight: 700;
+}
+
+nav {
+    width: 100%;
+    /*    height: 25%;*/
+}
+
+
+form {
+    color: white
+}
+
+.homepage {
+    color: white;
+    margin-bottom: 2%;
+}

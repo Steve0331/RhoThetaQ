@@ -22,10 +22,9 @@
 <style>
 .grid-homecomingContainer {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: auto;
   grid-gap: 10px;
   width: 85%; 
-  text-align: center;
   padding: 8px;	
 }	
 
@@ -33,12 +32,13 @@
   background: rgba(255,255,240,4);
   font-size: 4vw;
   padding: 8px;	
+  text-align: center;
 }
 	
 .homecomingTitle {
   background: rgba(255,255,240,4); 
   text-align: center; 
-  font-size: 30px; 
+  font-size: 20px; 
   text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.3), 1px 1px 0px rgba(0, 0, 0, 0.8); 
   color: rgba(255,226,0,6);
 }
@@ -251,10 +251,12 @@
 			
 			
 		<div class="grid-homecomingContainer">
-			<div class="row homecomingTitle">
+			<div class="row">
+				<div class="homecomingTitle">
 				<h2>
 					Homecoming 2023
 				</h2>
+				</div>
 			</div>
 			
 			<div class="row" style="background: gold;">

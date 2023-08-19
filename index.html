@@ -300,17 +300,15 @@ function displayRadioValue() {
 		if (ele[i].checked)
 			document.getElementById("result").innerHTML
 				= "Shirt Package: " + ele[i].value;
-			//myLink = document.getElementById("result").innerHTML;    //var myInnerHtml = document.getElementById("forloop").innerHTML;
-			//alert(selectedPkg);
 	}
 			myLink = document.getElementById("result").innerText;
 			myLink = myLink.substring(15);
-			//alert(myLink);
 			NewTab(myLink);
 }
 
 function NewTab(paypal) {
 	//alert(paypal);
+	document.getElementById("result").innerText = '';
 	window.open(paypal, "_blank");
 }
 </script>			

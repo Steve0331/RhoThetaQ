@@ -20,22 +20,19 @@
     <link href="css/modern-business.css" rel="stylesheet">
 	
 <style>
-.grid-hcContainer {
-  width: 85%; 
-  background: rgba(255,255,240,4); 
-  padding: 5px;
-  text-align: center;
-}
-
-
-.homecomingContainer {
+.grid-homecomingContainer {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr;
+  grid-gap: 8px;
   width: 85%; 
-  background: rgba(255,255,240,4); 
-  padding: 8px;
   text-align: center;
 }	
+
+.grid-homecomingContainer > div { 
+  background: rgba(255,255,240,4);
+  font-size: 4vw;
+  padding: 8px;	
+}
 	
 .homecomingTitle {
   background: rgba(255,255,240,4); 
@@ -252,7 +249,7 @@
 			<!-- </div>.row -->
 			
 			
-		<div class="homecomingContainer">
+		<div class="grid-homecomingContainer">
 			<div class="row homecomingTitle">
 				<h2>
 					Homecoming 2023
